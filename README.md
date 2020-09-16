@@ -1,9 +1,13 @@
-# `(WIP)` OS IMS
+![Work In Progress](https://unpkg.com/vvwip/WIP.svg)
+
+# OS IMS
 
 Open source inventory management system.
 
 - [Notion Notes](https://www.notion.so/OSIMS-c3d94aa452774ff0be1b51a52c4b20d7) -
   Logs and research
+- [Figma Link](https://www.figma.com/files/project/14101691/Low-Fidelity-Wire-frame)
+  - Currently have low-fidelity for login/sign up page & inventory page
 
 <br>
 
