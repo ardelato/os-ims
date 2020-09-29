@@ -52,53 +52,15 @@ const Login = () => {
   return (
     <div>
       <Container className={classes.container}>
-        <h1 id="login-text">Login</h1>
-        <form>
-          {/* Username Text Field */}
-          <TextField
-            id="username"
-            label="Username"
-            type="text"
-            name="username"
-            margin="dense"
-            fullWidth
-            variant="outlined"
-          />
-
-          {/* Password Text Field */}
-          <TextField
-            id="password"
-            variant="outlined"
-            label="Password"
-            type={values.showPassword ? "text" : "password"}
-            value={values.password}
-            onChange={handleChange("password")}
-            margin="dense"
-            fullWidth
-            InputProps={{
-              endAdornment: (
-                <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={handleClickShowPassword}
-                    onMouseDown={handleMouseDownPassword}
-                    edge="end"
-                  >
-                    {values.showPassword ? <Visibility /> : <VisibilityOff />}
-                  </IconButton>
-                </InputAdornment>
-              ),
-            }}
-          />
-        </form>
+        <h1 id="signup-text">Signup</h1>
+        <form></form>
         <p>
           <small>
-            If you do not have an account already,{" "}
-            <a href="/signup">Signup here</a>
+            Already have an account?, <a href="/Login">Login here</a>
           </small>
         </p>
         <Button variant="contained" disableElevation>
-          Login
+          Signup
         </Button>
       </Container>
     </div>
